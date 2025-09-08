@@ -1,14 +1,18 @@
-###Mi primer readme
-Este readme tiene como fin practicar el uso introductorio de Git y GitHub para realizar entrega de tareas a futuro y familiarizarme con el uso de repositorios.
+<link rel="stylesheet" href="editormd/css/editormd.css" />
+<div id="test-editor">
+    <textarea style="display:none;">### Editor.md
 
-#####Ejercicios Funciones:
-- Conversor de temperatura
-- Conversor_alt
-- Tabla de multiplicar
-
-#####Objetivos de esta sección
-Practicar el uso de las funciones en C, así como el fortalecimiento en el uso de las sentencias básicas. 
-- while
-- do-while
-- switch
-- if-else
+**Editor.md**: The open source embeddable online markdown editor, based on CodeMirror & jQuery & Marked.
+    </textarea>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="editormd/editormd.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var editor = editormd("test-editor", {
+            // width  : "100%",
+            // height : "100%",
+            path   : "editormd/lib/"
+        });
+    });
+</script>
