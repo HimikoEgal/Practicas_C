@@ -1,2 +1,2 @@
-<em> # Practicas de C </em> /n
+<em> # Practicas de C </em><br>
 Esta es una prueba de readme, aqui subire unos cuantos ejercicios que he hecho hasta el momento, un saludo. uwu 
