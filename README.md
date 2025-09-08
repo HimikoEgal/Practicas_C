@@ -1,6 +1,6 @@
 <h2>:page_with_curl: Mi primer readme</h2>
 
-<h4>Objetivo:</h4>
+<h4>Objetivo general:</h4>
 Este readme tiene como fin practicar el uso introductorio de Git y GitHub para realizar entrega de tareas a futuro y familiarizarme con el uso de repositorios.
 
 <h2>Funciones</h2>
