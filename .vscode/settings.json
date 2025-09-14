@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "Tabla_mult.C": "cpp"
+        "Tabla_mult.C": "cpp",
+        "string.h": "c"
     }
 }
