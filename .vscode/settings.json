@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "Tabla_mult.C": "cpp",
-        "string.h": "c"
+        "string.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c"
     }
 }
