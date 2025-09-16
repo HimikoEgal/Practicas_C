@@ -10,11 +10,9 @@ int main(){
     char sex_alu[30];
     
     printf("Digite el numero de alumnos: ");scanf("%i", &num_alu);
-    // Limpiar buffer después de scanf
-    int c; while ((c = getchar()) != '\n' && c != EOF);
+    int c; while ((c = getchar()) != '\n' && c != EOF); // Limpiar buffer después de scanf
     
     for(i=1;i<=num_alu;i++){
-        
         printf("\n%i.Digite el sexo del alumnx (masculino/femenino): ", i);fgets(sex_alu, 30, stdin);
         // eliminar salto de línea || strcspn = string complement span
         sex_alu[strcspn(sex_alu, "\n")] = 0; 
@@ -26,7 +24,7 @@ int main(){
             mujer++;    
         }
     }
-    //salimos del bucle
+    //salimos del bucle y mostramos resultados
     printf("\nEl numero de alumnos masculinos es: %i", varon);
     printf("\nEl numero de alumnas femeninas es: %i\n", mujer);
     

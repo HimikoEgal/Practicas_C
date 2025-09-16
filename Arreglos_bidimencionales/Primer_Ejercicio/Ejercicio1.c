@@ -6,20 +6,23 @@ rellenar la matriz y luego mostrarla en pantalla.*/
 
 int main(){
     int filas, columnas, i, j;
-    
+    //Primero pedimos las dimensiones de la matriz.
     printf("Ingrese el numero de filas: \n");scanf("%i", &filas);
     printf("Ingrese el numero de columnas: \n");scanf("%i", &columnas);
-    system("clear");
     
-    int matriz[filas][columnas];
+    system("clear");//limpiamos la pantalla para que se vea bonito. uwu
     
+    int matriz[filas][columnas]; //declaramos la matriz con las dimensiones dadas por el usuario.
+    
+    //Llenamos la matriz con los valores dados por el usuario. 
     for(i=0;i<filas;i++){
         for(j=0;j<columnas;j++){
             printf("Ingrese los valores de la matriz[%i][%i]: ", i+1, j+1);scanf("%i", &matriz[i][j]);
         }
     printf("\n");
     }
-        for(i=0;i<filas;i++){
+    //Imprimimos la matriz en pantalla.
+    for(i=0;i<filas;i++){
         for(j=0;j<columnas;j++){
             printf("%i ", matriz[i][j]);
         }
